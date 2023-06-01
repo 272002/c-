@@ -8,7 +8,8 @@ using namespace std;
 
 bool distinct(string s, int i, int j)
 {
-    vector<bool> v(26);
+    vector<bool> v(26,false);
+    
     for (int k = i; k <= j; k++)
     {
         if (v[s[k] - 'a'] == true)
@@ -24,13 +25,13 @@ int main()
 {
     string s;
     cin >> s;
-    int mx = 0,i=0,j=0;
+    int mx = 0;
     int len = s.size();
-    for (i = 0; i < len; i++)
+    for (int i = 0; i < len; i++)
     {
-        for (j = i; j < len; j++)    
+        for (int j = i; j < len; j++)    
         {
-            if (distinct(s, i, j))
+            if (distinct(s, i, j) == true)
             {
                 mx = max(mx, j - i + 1);
             }
