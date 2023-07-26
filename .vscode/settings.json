@@ -7,7 +7,9 @@
     "map": "cpp",
     "chrono": "cpp",
     "cstdlib": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
