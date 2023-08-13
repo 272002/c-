@@ -25,6 +25,7 @@ void iterInorder(Node* root){
             curr = st.top();
             cout<<curr->data<<" ";
             st.pop();
+            
             curr = curr->right;
         }
         else
