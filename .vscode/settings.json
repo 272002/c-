@@ -9,7 +9,8 @@
     "cstdlib": "cpp",
     "algorithm": "cpp",
     "cmath": "cpp",
-    "complex": "cpp"
+    "complex": "cpp",
+    "vector": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
